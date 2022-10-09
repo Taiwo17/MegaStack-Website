@@ -1,0 +1,25 @@
+/* Mobile View for the site */
+
+.work-wrapper-container {
+  padding: 3.125rem 2rem 0rem 2rem;
+}
+
+/* Desktop View for Larger Screen */
+@media (min-width: 600px) {
+  /* .work-wrapper-container {
+    padding: 50px px 0px 30px;
+  } */
+}
+
+@media (min-width: 768px) {
+  .work-wrapper-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-wrapper-container {
+    padding: 100px 128px 0 128px;
+  }
+}

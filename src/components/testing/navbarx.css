@@ -1,0 +1,66 @@
+/* Designing for Mobile View */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  height: 5.75rem;
+  padding: 24px 16px 24px 16px;
+}
+
+.nav-link-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuNav {
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #111222;
+  padding-left: 2rem;
+}
+
+/* Desiging for Desktop View */
+@media (min-width: 37.5rem) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  .showMenu {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    padding: 1rem;
+  }
+  .menuNav {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .menuNav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .btn-hamburger {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .nav-bar {
+    padding: 24px 128px;
+    /* gap: 300px; */
+  }
+}

@@ -1,0 +1,14 @@
+.blog-post-section {
+  background-image: url('../../../public/images/mobile_background.png');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.blog-index-container {
+  padding: 112px 32px 0 32px;
+}
+
+.arrow-icon {
+  margin-bottom: 40px;
+}

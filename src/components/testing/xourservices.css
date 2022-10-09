@@ -1,0 +1,130 @@
+.section-services {
+  margin-top: 15rem;
+  padding: 50px 32px 0px 32px;
+}
+
+.main-content {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+  letter-spacing: 0.02rem;
+  color: #25284b;
+  margin-top: 15rem;
+  margin-bottom: 24px;
+}
+
+.main-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #111222;
+}
+
+.cover {
+  width: 318px;
+  height: 318px;
+  margin-top: 64px;
+  margin-bottom: 1rem;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.mobile-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.02rem;
+  color: #247ab5;
+  margin-bottom: 24px;
+}
+
+.mobile-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #111222;
+  text-align: justify;
+}
+
+.sub-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #111222;
+  text-align: justify;
+}
+
+@media (min-width: 37.5rem) {
+  .main-text {
+    width: 366px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .cover {
+    height: 400px;
+    width: 400px;
+  }
+  .services-main-container {
+    margin-top: 10rem;
+    grid-column: 1/-1;
+  }
+  .main-content {
+    width: 366px;
+  }
+  .mobile-content-container {
+    margin-top: 1.5rem;
+  }
+  .mobile-text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sub-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-services {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .main-content {
+    margin-top: 10rem;
+  }
+
+  .mobile-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+section > div:nth-child(3) > div.mobile-content-container {
+  order: -1;
+}
+section > div:nth-child(5) > div.mobile-content-container {
+  order: -1;
+}
+
+@media (min-width: 1024px) {
+}
+@media (min-width: 1200px) {
+  .section-services {
+    margin-top: 3rem;
+    padding: 100px 128px 0 128px;
+  }
+}

@@ -1,0 +1,174 @@
+.footer-container {
+  background-color: #25284b;
+  height: auto;
+}
+
+.footer-wrapper {
+  padding: 64px 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.touch-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.footer-descriptions {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer-content {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+}
+.space-footer-text {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-touch {
+  padding: 16px 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #55a5db;
+  border-radius: 8px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.hr {
+  border-bottom: 2px solid white;
+  padding-top: 1.5rem;
+}
+.social-handle-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 2rem;
+}
+.social-handle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.social-handle > img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-footer-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+}
+
+.copy-right {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  padding-top: 2.5rem;
+}
+.social-main {
+  padding: 44px 0 64px 0;
+}
+@media (min-width: 600px) {
+  .touch-text {
+    font-size: 25px;
+  }
+  .link-btn {
+    width: 50%;
+  }
+  .btn-touch {
+    padding: 16px 20px;
+    width: 50%;
+  }
+}
+
+/* @media (min-width: 768px) {
+} */
+
+@media (min-width: 1024px) {
+  .footer-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .footer-descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  .touch-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+  }
+  .link-btn {
+    width: 50%;
+  }
+  .btn-touch {
+    padding: 16px 20px;
+    width: 50%;
+  }
+
+  .footer-content {
+    font-size: 18px;
+  }
+
+  .social-container {
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .social-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px 0 64px 0;
+    flex-direction: row-reverse;
+  }
+  .social-handle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+  }
+  .copy-right {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-container {
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+}

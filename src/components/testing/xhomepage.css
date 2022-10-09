@@ -1,0 +1,99 @@
+.hero-section {
+  height: 766px;
+  width: 100%;
+  background-image: url('../../../public/images/mobile_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 112px 32px 0px 32px;
+  width: 366px;
+}
+.hero-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: 0.02rem;
+  color: #25284b;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.hero-content {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  color: #111222;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  width: 100%;
+  color: #fff;
+  background-color: #55a5db;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 40px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (min-width: 37.5rem) {
+  .hero-section {
+    background-image: url('../../../public/images//blobs.png') !important;
+  }
+  .hero-container {
+    width: 615px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+  }
+  .hero-content {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    width: 732px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    padding: 130px 64px 0 64px;
+    width: auto;
+  }
+  .hero-title {
+    font-size: 96px;
+  }
+  .hero-content {
+    font-size: 32px;
+  }
+  .hero-btn {
+    padding: 1.25rem 2.5rem;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-container {
+    padding: 100px 200px 0 200px;
+  }
+  .hero-content {
+    font-size: 25px;
+  }
+}
